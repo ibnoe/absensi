@@ -1,0 +1,33 @@
+############
+#CHANGE LOG#
+############
+###################################################
+#Sistem Aplikasi Rekapitulasi Absen Bapepam dan LK#
+###################################################
+##################
+#14 desember 2010#
+##################
+#Dengan menggunakan struktur data yang sama persis dengan struktur data yang digunakan oleh database mesin, terjadi #kendala berupa lambatnya proses loading data melalui query. Oleh karena itu perlu dilakukan re-strukturisasi serta #optimasi (opsional) terhadap struktur data.
+#solusi 1:
+#
+#->buat table untuk data absen masuk 
+#-->input melalui trigger pada table tactivities atau menggunakan modul import data pada aplikasi (belum ada) dengan #paramater:
+#---->apabila terdapat lebih dari satu baris data absen pegawai dalam satu hari, ambil baris yang paling awal
+#-->field data:
+#---->fscardno varchar(15)
+#---->tanggal varchar(10)
+#---->masuk int
+#
+#->buat table untuk data absen keluar 
+#-->input melalui trigger pada table tactivities atau menggunakan modul import data pada aplikasi (belum ada) dengan #paramater:
+#---->apabila terdapat lebih dari satu baris data absen pegawai dalam satu hari, ambil baris yang paling akhir
+#-->field data:
+#---->fscardno varchar(15)
+#---->tanggal varchar(10)
+#---->keluar int
+#
+#->buat table untuk data tanggal hari kerja
+#-->input melalui trigger pada table tactivities atau menggunakan modul import data pada aplikasi (belum ada) dengan #paramater:
+#---->ambil nilai distinct tanggal
+#-->field data:
+#---->tanggal varchar(10)

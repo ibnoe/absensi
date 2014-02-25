@@ -1,0 +1,32 @@
+body {background: url(../img/body-bkg.png) repeat scroll;margin: 0;padding: 0; font-family:Tahoma, Geneva, sans-serif; font-size:12px;}
+.container{margin: 0pt auto;width:950px;}
+#header{background: url(../img/hdr-bkg.png) repeat-x scroll;height:181px;position:absolute;z-index :100;top: 0px;left:0px;width:100%;}
+#navigation{height:60px;}
+#data-pegawai, #data-pegawai div, 
+#data-absensi, #data-absensi div, 
+#data-tkpkn , #data-tkpkn div,
+#laporan-absensi , #laporan-absensi div,
+#laporan-ketidakhadiran , #laporan-ketidakhadiran div,
+#load-data , #load-data div,
+#user-setting , #user-setting div,
+#logout , #logout div{height:80px;position:absolute;width:100px;float:left;}
+#data-pegawai, #data-absensi, #data-tkpkn, #laporan-absensi, #laporan-ketidakhadiran, #load-data, #user-setting, #logout{background-image: url(../img/nav.png);background-attachment: scroll;background-repeat: no-repeat;top:171px;}
+#data-pegawai{background-position: 0px -25px;margin-left:6px;}
+#data-absensi{background-position: -100px -25px;margin-left:106px;}
+#data-tkpkn{background-position: -200px -25px;margin-left:206px;}
+#laporan-absensi{background-position: -300px -25px;margin-left:306px;}
+#laporan-ketidakhadiran{background-position: -400px -25px;margin-left:406px;}
+#load-data{background-position: -500px -25px;margin-left:506px;}
+#user-setting{background-position: -600px -25px;margin-left:606px;}
+#logout{background-position: -700px -25px;margin-left:706px;}
+#data-pegawai div, #data-absensi div, #data-tkpkn div, #laporan-absensi div, #laporan-ketidakhadiran div, #load-data div, #user-setting div, #logout div{background-image: url(../img/white.png);background-attachment: scroll;background-repeat: no-repeat;background-position: 0px -60px;}	
+.pri-nav a{display:block;text-decoration:none;text-indent:-30000px;}
+.content{margin-top:160px; background-color:#FFF; width:850px;position:absolute;}
+#content-title{background: url(../img/content-title.png) no-repeat scroll;height:323px;position:absolute;width:950px;}
+#footer{text-align:center; margin:auto; padding:15px;}
+/*login-form*/
+#login-form{width:800px; margin:auto; text-align:center;}
+#login-form #footer{text-align:center; margin:auto; padding:15px;}
+#home{background-color:#89483D; width:300px; height:450px; margin:0px; padding:0px; display:inline-block;}
+#form{background-color:#6F4D45; width:300px; height:450px; margin:0px; padding:0px; display:inline-block;}
+

@@ -1,0 +1,58 @@
+.flexigrid div.fbutton .edit{background: url(../img/edit.png) no-repeat center left;}
+.flexigrid div.fbutton .delete{background: url(../img/close.png) no-repeat center left;}	
+.flexigrid div.fbutton .cetak{background: url(../img/pdf.png) no-repeat center left;}	
+.maingrid, .maingridcuti{
+	border-left:1px solid #CCCCCC;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;}
+.gridheader1{
+	background: transparent url(../img/grid/bg.gif) repeat-x scroll 0 -1px; 
+	border-color: #CCCCCC; 
+	border-width: 0 1px 1px; 
+	border-style: none solid solid; 
+	padding:5px;}
+.gridheader{
+	background: transparent url(../img/grid/wbg.gif) repeat-x scroll 0 -1px; 
+	border-color: #CCCCCC; 
+	border-width: 0 1px 1px; 
+	border-style: none solid solid; 
+	padding:5px; 
+	border-left:1px solid #FFFFFF; 
+	border-right:1px solid #DDDDDD;}
+.gridrow{
+	border-left:1px solid #FFFFFF; 
+	border-right:1px solid #DDDDDD;
+	padding:5px;
+	vertical-align:top;}
+.maingrid tr:hover, .maingridcuti tr:hover{
+	background:#D9EBF5;
+	cursor:default;}
+.rowEven{
+	background:/*#F7F7F7*/#EEEEEE;}
+.gridfooter{
+	background: transparent url(../img/grid/wbg.gif) repeat-x scroll 0 -1px; 
+	border-color: #CCCCCC; 
+	border-width: 0 1px 1px; 
+	border-style: none solid solid; 
+	padding:5px; 
+	border-left:1px solid #FFFFFF; 
+	border-right:1px solid #DDDDDD;}
+.maingrid .button, .maingridcuti .button{
+	display:inline-block;
+	padding:4px;
+	width:30px;
+	text-align:center;}
+.maingrid .button:hover, .maingridcuti .button:hover{
+	border:2px solid #CCCCCC;
+	cursor:pointer;
+	padding: 3px 3px;
+	border-left: 1px solid #DDDDDD;
+	border-top: 1px solid #DDDDDD;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;}
+.maingrid .pageInfo, .maingridcuti .pageInfo{display:inline-block;}
+.maingrid .goFirst, .maingridcuti .goFirst{ background:url(../img/grid/first.gif) no-repeat; width:20px;}
+.maingrid .goPrev, .maingridcuti .goPrev{ background:url(../img/grid/prev.gif) no-repeat; width:20px;}
+.maingrid .goNext, .maingridcuti .goNext{ background:url(../img/grid/next.gif) no-repeat; width:20px;}
+.maingrid .goLast, .maingridcuti .goLast{ background:url(../img/grid/last.gif) no-repeat; width:20px;}
+.maingrid .selected, .maingridcuti .selected{background:#BBBBBB;}

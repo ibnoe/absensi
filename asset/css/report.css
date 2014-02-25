@@ -1,0 +1,22 @@
+/*report style*/
+.report-body{font-family:Tahoma, Geneva, sans-serif; font-size:11px; margin:auto;}
+.report-body h3{font-size:16px; font-weight:bold; line-height:110%; padding:4px; margin:2px;}
+.report-body h4{font-size:12px; font-weight:bold; line-height:110%; padding:4px; margin:0px;}
+.report-body h4 .label, .report-body h4 .value{ width:125px; display:inline;}
+.report-body table{font-family:Tahoma, Geneva, sans-serif; font-size:11px; border:0px solid; padding:0px; margin:0px; background-color:#FFF;}
+.report-body table td{font-family:Tahoma, Geneva, sans-serif; font-size:11px; border:1px solid; background-color:#FFF; vertical-align:top;}
+.gridheader td, .gridrow td{padding:5px;}
+
+body{font-family:Tahoma, Geneva, sans-serif; font-size:10px;}
+.container{margin:auto;}
+table{margin:10px 20px; padding:0px; border:1px solid;}
+.header{color:#FFF; text-align:center; background-color:#333; padding:5px;}
+.even{color:#000; background-color:#BBB; padding:10px;}
+.odd{color:#000; background-color:#FFF; padding:10px;}
+h3{font-size:16px; font-weight:bold; line-height:110%; padding:4px; margin:2px;}
+h4{font-size:12px; font-weight:bold; line-height:110%; padding:4px; margin:0px;}
+h4 .label, h4 .value{ width:125px; display:inline;}
+.title{margin:10px 20px; padding:0px;}
+.footer{font-size:8px;margin:10px 20px; padding:0px;}
+.date{width:50%; display:inline;}
+.page{width:50%; text-align:right; display:inline;}
